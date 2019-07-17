@@ -921,3 +921,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle.ja
 2019-07-16 09:35:05,051 [Worker-2329: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ajinkya.dhobale\eclipse-workspace\MavenJavaSel\src\main\resources
 2019-07-16 09:35:05,053 [Worker-2329: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-07-16 09:35:05,053 [Worker-2329: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ajinkya.dhobale\eclipse-workspace\MavenJavaSel\src\test\resources
+2019-07-17 11:21:57,540 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
