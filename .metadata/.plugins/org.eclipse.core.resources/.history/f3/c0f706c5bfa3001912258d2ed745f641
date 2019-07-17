@@ -1,0 +1,14 @@
+package MavenJavaSelProj.MavenJavaSel;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class PxpTest {
+ public static void main(String[] args) {
+	 WebDriver driver;
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\ajinkya.dhobale\\Downloads\\geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.get("https://int.contentserv.com/qa-1/");
+}
+}

@@ -1,0 +1,10 @@
+package MavenJavaSelProj.MavenJavaSel;
+
+public class PXPtest {
+@befor
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

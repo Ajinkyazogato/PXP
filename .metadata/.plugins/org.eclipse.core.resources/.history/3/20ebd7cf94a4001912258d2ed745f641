@@ -1,0 +1,17 @@
+package MavenJavaSelProj.MavenJavaSel;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeMethod;
+
+public class PxpTest {
+ public static void main(String[] args) {
+	 
+		System.setProperty("webdriver.chrome.driver","Downloads\\chromedriver");
+  
+        WebDriver	driver = new ChromeDriver();
+		driver.get("https://int.contentserv.com/qa-1/");
+}
+}
