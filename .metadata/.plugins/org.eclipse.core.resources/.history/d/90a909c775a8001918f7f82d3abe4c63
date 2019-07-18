@@ -1,6 +1,5 @@
 	package com.jbk.keywordFrmework;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
@@ -94,7 +93,7 @@ public class KeyWordMethods {
  * 
  * 
  */
-	//id // "name" // admin
+	//id // "ename" // kiran
 	
 	public void enter_Text(String locatorType, String value, String text) {
 		try {
@@ -151,30 +150,11 @@ public class KeyWordMethods {
 			Actions act = new Actions(driver);
 			act.doubleClick();
 			act.sendKeys(Keys.BACK_SPACE);
-			act.sendKeys("");
+			act.sendKeys("new name");
 			act.build().perform();
 			act.sendKeys(Keys.TAB);
 		} catch (NoSuchElementException e) {
 			System.err.format("No Element Found to perform click" + e);
-		}
-	}
-	
-	public void tab_key() {
-		try {
-		Actions act = new Actions(driver);
-		act.build().perform();
-		act.sendKeys(Keys.TAB);
-	} catch (NoSuchElementException e) {
-		System.err.format("No Element Found to perform click" + e);
-		}
-	}
-	
-	public void accept_alert() {
-		try {
-			Alert alert = driver.switchTo().alert();
-			alert.accept();
-	} catch (NoSuchElementException e) {
-		System.err.format("No Element Found to perform click" + e);
 		}
 	}
 	public void pause( int time) {

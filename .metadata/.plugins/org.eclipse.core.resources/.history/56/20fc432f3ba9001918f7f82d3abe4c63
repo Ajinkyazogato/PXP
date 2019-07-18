@@ -22,6 +22,7 @@ public class ReadExcel {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (BiffException e) {
+			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
